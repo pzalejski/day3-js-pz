@@ -27,8 +27,6 @@ function fav_shoes_2(person) {
     }
 }
 
-// fav_shoes(person3)
-
 console.log(fav_shoes_2(person3))
 
 
