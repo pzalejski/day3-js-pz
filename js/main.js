@@ -20,12 +20,6 @@ let person3 = {
 }
 
 
-function fav_shoes(person) {
-    for (let i = 0; i < Object.keys(person).length; i++){
-        console.log(person.shoes[0])
-    }
-}
-
 function fav_shoes_2(person) {
     if (Array.isArray(Object.entries(person.shoes[0]))) {
         for (let i = 0; i < Object.keys(person.shoes).length; i++)
